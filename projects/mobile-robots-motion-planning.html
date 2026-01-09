@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mobile Robots Motion Planning | Dhruvi Koshiya</title>
+  <meta name="description" content="Autonomous Robot Navigation using RRT and TEB Algorithms">
+  <meta name="keywords" content="Mobile Robotics, Path Planning, RRT, TEB, Autonomous Navigation, Obstacle Avoidance">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Dhruvi</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html#hero">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#resume">Resume</a></li>
+          <li><a href="../index.html#portfolio">Projects</a></li>
+          <li><a href="../index.html#achievements">Achievements</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container position-relative">
+        <h1>Mobile-Robots-Motion-Planning: Autonomous Robot Navigation</h1>
+        <p>Path Planning and Optimization using RRT and TEB Algorithms</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#portfolio">Projects</a></li>
+            <li class="current">Motion Planning</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <!-- <img src="../assets/img/portfolio/books-1.jpg" alt="Mobile Robot Navigation"> -->
+                  <img src="../assets/img/portfolio/turtlebot.jpg" alt="Mobile Robot Navigation">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Mobile Robotics</li>
+                <li><strong>Robot</strong>: Turtlebot </li>
+                <li><strong>Algorithms</strong>: RRT, TEB</li>                
+                <li><strong>Focus</strong>: Path Planning & Obstacle Avoidance</li>
+                <!-- git Section <li><strong>Repository</strong>: <a href="#" target="_blank">GitHub Link</a></li>   -->
+                <li><strong>Repository</strong>: <a href="https://github.com/dhruvi1010/Mobile-Robots-Motion-Planning" target="_blank">GitHub Link</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row gy-4 mt-4">
+          <div class="col-lg-12">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Project Overview</h2>
+              <p>
+                This project focuses on autonomous robot navigation through path planning and optimization. The primary 
+                emphasis is on utilizing the Rapidly-exploring Random Tree (RRT) algorithm for global planning and the 
+                Timed Elastic Band (TEB) algorithm for local path optimization and obstacle avoidance.
+              </p>
+              
+              <h3>Key Algorithms</h3>
+              
+              <h4>RRT (Rapidly-exploring Random Tree)</h4>
+              <ul>
+                <li><strong>Purpose:</strong> Global path planning</li>
+                <li><strong>Function:</strong> Finds a feasible path from start to goal configuration</li>
+                <li><strong>Advantages:</strong> Efficient in high-dimensional spaces, handles complex environments</li>
+                <li><strong>Application:</strong> Initial path generation for mobile robots</li>
+              </ul>
+
+              <h4>TEB (Timed Elastic Band)</h4>
+              <ul>
+                <li><strong>Purpose:</strong> Local path optimization and obstacle avoidance</li>
+                <li><strong>Function:</strong> Optimizes the trajectory considering robot dynamics and obstacles</li>
+                <li><strong>Advantages:</strong> Real-time optimization, considers velocity and acceleration constraints</li>
+                <li><strong>Application:</strong> Smooth trajectory execution with dynamic obstacle avoidance</li>
+              </ul>
+
+              <h3>Project Features</h3>
+              <ul>
+                <li><strong>Global Path Planning:</strong> RRT algorithm for finding initial feasible paths</li>
+                <li><strong>Local Path Optimization:</strong> TEB algorithm for smooth trajectory execution</li>
+                <li><strong>Obstacle Avoidance:</strong> Dynamic obstacle detection and avoidance</li>
+                <li><strong>Real-time Navigation:</strong> Efficient algorithms for real-time robot control</li>
+                <li><strong>Path Optimization:</strong> Continuous refinement of robot trajectory</li>
+              </ul>
+
+              <h3>Technical Implementation</h3>
+              <ul>
+                <li><strong>Planning Framework:</strong> ROS-based navigation stack</li>
+                <li><strong>Global Planner:</strong> RRT implementation</li>
+                <li><strong>Local Planner:</strong> TEB algorithm</li>
+                <li><strong>Sensor Integration:</strong> LIDAR, cameras for obstacle detection</li>
+                <li><strong>Robot Platform:</strong> Compatible with various mobile robot platforms</li>
+              </ul>
+
+              <h3>Applications</h3>
+              <p>
+                This motion planning system has applications in:
+              </p>
+              <ul>
+                <li>Autonomous mobile robots</li>
+                <li>Warehouse automation</li>
+                <li>Service robotics</li>
+                <li>Autonomous vehicles</li>
+                <li>Search and rescue robots</li>
+              </ul>
+
+              <h3>Key Contributions</h3>
+              <ul>
+                <li>Integration of RRT and TEB algorithms for comprehensive path planning</li>
+                <li>Optimization of path planning for real-time performance</li>
+                <li>Robust obstacle avoidance in dynamic environments</li>
+                <li>Implementation suitable for various mobile robot platforms</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container">
+      <h3 class="sitename">Dhruvi Koshiya<br></h3>
+      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
+
