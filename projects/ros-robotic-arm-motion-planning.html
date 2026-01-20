@@ -39,17 +39,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.html#hero">Home</a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#resume">Resume</a></li>
-          <li><a href="../index.html#portfolio">Projects</a></li>
-          <li><a href="../index.html#achievements">Achievements</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="../index.html#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -62,13 +65,13 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Motion Planning & Control of UR10 Robotic Arm Using ROS-MATLAB Integration and Gazebo Simulation</h1>
-        <p>Robust Control System for UR10 Robotic Arm</p>
+        <h1 data-i18n="project3Title">Motion Planning & Control of UR10 Robotic Arm Using ROS-MATLAB Integration and Gazebo Simulation</h1>
+        <p data-i18n="project3Subtitle">Robust Control System for UR10 Robotic Arm</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#portfolio">Projects</a></li>
-            <li class="current">ROS Motion Planning</li>
+            <li><a href="../index.html" data-i18n="breadcrumbHome">Home</a></li>
+            <li><a href="../index.html#portfolio" data-i18n="breadcrumbProjects">Projects</a></li>
+            <li class="current" data-i18n="project3Breadcrumb">ROS Motion Planning</li>
           </ol>
         </nav>
       </div>
@@ -111,12 +114,12 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+              <h3 data-i18n="projectInfo">Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Robotics Control</li>
-                <li><strong>Robot</strong>: UR10 Robotic Arm</li>
-                <li><strong>Platforms</strong>: ROS, MATLAB, Gazebo</li>
-                <li><strong>Focus</strong>: Trajectory Planning & Control</li>
+                <li><strong data-i18n="category">Category</strong>: <span data-i18n="project3Category">Robotics Control</span></li>
+                <li><strong data-i18n="project3Robot">Robot</strong>: UR10 Robotic Arm</li>
+                <li><strong data-i18n="project3Platforms">Platforms</strong>: ROS, MATLAB, Gazebo</li>
+                <li><strong data-i18n="project3Focus">Focus</strong>: Trajectory Planning & Control</li>
               </ul>
             </div>
           </div>
@@ -126,59 +129,59 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
+              <h2 data-i18n="projectOverview">Project Overview</h2>
+              <p data-i18n="project3Overview">
                 This project aims to create a robust control system for a UR10 robotic arm, leveraging MATLAB and ROS for 
                 precise trajectory planning and execution. The primary objective is to integrate inverse kinematic control, 
                 simulation in Gazebo, and communication with ROS to enable users to specify end-effector poses and execute 
                 smooth motion trajectories while monitoring real-time joint states and velocities.
               </p>
               
-              <h3>Key Features</h3>
+              <h3 data-i18n="project1KeyFeatures">Key Features</h3>
               <ul>
-                <li><strong>Inverse Kinematic Control:</strong> Precise calculation of joint angles for desired end-effector poses</li>
-                <li><strong>Gazebo Simulation:</strong> Realistic physics-based simulation environment for testing and validation</li>
-                <li><strong>ROS Integration:</strong> Seamless communication between MATLAB and ROS ecosystem</li>
-                <li><strong>Trajectory Planning:</strong> Smooth motion trajectories with collision avoidance</li>
-                <li><strong>Real-time Monitoring:</strong> Live tracking of joint states, velocities, and end-effector positions</li>
+                <li data-i18n="project3Feature1"><strong>Inverse Kinematic Control:</strong> Precise calculation of joint angles for desired end-effector poses</li>
+                <li data-i18n="project3Feature2"><strong>Gazebo Simulation:</strong> Realistic physics-based simulation environment for testing and validation</li>
+                <li data-i18n="project3Feature3"><strong>ROS Integration:</strong> Seamless communication between MATLAB and ROS ecosystem</li>
+                <li data-i18n="project3Feature4"><strong>Trajectory Planning:</strong> Smooth motion trajectories with collision avoidance</li>
+                <li data-i18n="project3Feature5"><strong>Real-time Monitoring:</strong> Live tracking of joint states, velocities, and end-effector positions</li>
               </ul>
 
-              <h3>Technical Implementation</h3>
+              <h3 data-i18n="project3TechnicalImplementation">Technical Implementation</h3>
               <ul>
-                <li><strong>Robotic Platform:</strong> Universal Robots UR10</li>
-                <li><strong>Control Software:</strong> MATLAB with Robotics System Toolbox</li>
-                <li><strong>Simulation:</strong> Gazebo physics simulator</li>
-                <li><strong>Middleware:</strong> ROS (Robot Operating System)</li>
-                <li><strong>Control Method:</strong> Inverse kinematics for pose specification</li>
+                <li data-i18n="project3Tech1"><strong>Robotic Platform:</strong> Universal Robots UR10</li>
+                <li data-i18n="project3Tech2"><strong>Control Software:</strong> MATLAB with Robotics System Toolbox</li>
+                <li data-i18n="project3Tech3"><strong>Simulation:</strong> Gazebo physics simulator</li>
+                <li data-i18n="project3Tech4"><strong>Middleware:</strong> ROS (Robot Operating System)</li>
+                <li data-i18n="project3Tech5"><strong>Control Method:</strong> Inverse kinematics for pose specification</li>
               </ul>
 
-              <h3>Project Objectives</h3>
+              <h3 data-i18n="project3Objectives">Project Objectives</h3>
               <ul>
-                <li>Develop a user-friendly interface for specifying end-effector poses</li>
-                <li>Implement robust inverse kinematic solver for UR10</li>
-                <li>Create smooth trajectory planning algorithms</li>
-                <li>Integrate MATLAB control with ROS for real-time robot control</li>
-                <li>Validate control system through Gazebo simulation</li>
-                <li>Monitor and visualize real-time robot states</li>
+                <li data-i18n="project3Obj1">Develop a user-friendly interface for specifying end-effector poses</li>
+                <li data-i18n="project3Obj2">Implement robust inverse kinematic solver for UR10</li>
+                <li data-i18n="project3Obj3">Create smooth trajectory planning algorithms</li>
+                <li data-i18n="project3Obj4">Integrate MATLAB control with ROS for real-time robot control</li>
+                <li data-i18n="project3Obj5">Validate control system through Gazebo simulation</li>
+                <li data-i18n="project3Obj6">Monitor and visualize real-time robot states</li>
               </ul>
 
-              <h3>Applications</h3>
-              <p>
+              <h3 data-i18n="project3Applications">Applications</h3>
+              <p data-i18n="project3AppsIntro">
                 This control system has applications in:
               </p>
               <ul>
-                <li>Industrial automation and manufacturing</li>
-                <li>Research and development in robotics</li>
-                <li>Educational purposes for robotics courses</li>
-                <li>Prototyping and testing of robotic applications</li>
+                <li data-i18n="project3App1">Industrial automation and manufacturing</li>
+                <li data-i18n="project3App2">Research and development in robotics</li>
+                <li data-i18n="project3App3">Educational purposes for robotics courses</li>
+                <li data-i18n="project3App4">Prototyping and testing of robotic applications</li>
               </ul>
 
-              <h3>Technical Challenges</h3>
+              <h3 data-i18n="project3Challenges">Technical Challenges</h3>
               <ul>
-                <li>Synchronization between MATLAB and ROS</li>
-                <li>Real-time trajectory execution</li>
-                <li>Inverse kinematics solution for complex poses</li>
-                <li>Collision detection and avoidance</li>
+                <li data-i18n="project3Challenge1">Synchronization between MATLAB and ROS</li>
+                <li data-i18n="project3Challenge2">Real-time trajectory execution</li>
+                <li data-i18n="project3Challenge3">Inverse kinematics solution for complex poses</li>
+                <li data-i18n="project3Challenge4">Collision detection and avoidance</li>
               </ul>
             </div>
           </div>
@@ -193,14 +196,14 @@
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -220,6 +223,10 @@
   <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>

@@ -39,17 +39,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.html#hero">Home</a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#resume">Resume</a></li>
-          <li><a href="../index.html#portfolio">Projects</a></li>
-          <li><a href="../index.html#achievements">Achievements</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="../index.html#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -62,13 +65,13 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators</h1>
-        <p>Master's Thesis - Current Research Project</p>
+        <h1 data-i18n="project1Title">AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators</h1>
+        <p data-i18n="project1Subtitle">Master's Thesis - Current Research Project</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#portfolio">Projects</a></li>
-            <li class="current">Master Thesis</li>
+            <li><a href="../index.html" data-i18n="breadcrumbHome">Home</a></li>
+            <li><a href="../index.html#portfolio" data-i18n="breadcrumbProjects">Projects</a></li>
+            <li class="current" data-i18n="project1Breadcrumb">Master Thesis</li>
           </ol>
         </nav>
       </div>
@@ -111,13 +114,13 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+              <h3 data-i18n="projectInfo">Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Research Thesis</li>
-                <li><strong>Status</strong>: Current (In Progress)</li>
-                <li><strong>Institution</strong>: Technical University Dortmund</li>
-                <li><strong>Robot Platform</strong>: Hello Robot Stretch 3</li>
-                <li><strong>Technologies</strong>: ROS2, Unity, MoveIt2, Meta Quest 3</li>
+                <li><strong data-i18n="category">Category</strong>: <span data-i18n="project1Category">Research Thesis</span></li>
+                <li><strong data-i18n="status">Status</strong>: <span data-i18n="current">Current</span> (<span data-i18n="inProgress">In Progress</span>)</li>
+                <li><strong data-i18n="project1Institution">Institution</strong>: Technical University Dortmund</li>
+                <li><strong data-i18n="project1RobotPlatform">Robot Platform</strong>: Hello Robot Stretch 3</li>
+                <li><strong data-i18n="project1Technologies">Technologies</strong>: ROS2, Unity, MoveIt2, Meta Quest 3</li>
               </ul>
             </div>
           </div>
@@ -127,39 +130,39 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
+              <h2 data-i18n="projectOverview">Project Overview</h2>
+              <p data-i18n="project1Overview">
                 Developing an AI-assisted Mixed Reality (MR) teleoperation framework for the Hello Robot Stretch 3 that combines 
                 immersive interaction with adaptive autonomy. The system integrates a ROS2-Unity communication bridge, real-time 
                 motion planning (MoveIt2), and MR control via the Meta Quest 3 for intuitive head, hand, and joystick-based operation.
               </p>
               
-              <h3>Key Features</h3>
+              <h3 data-i18n="project1KeyFeatures">Key Features</h3>
               <ul>
-                <li><strong>ROS2-Unity Communication Bridge:</strong> Seamless integration between robotics middleware and MR environment</li>
-                <li><strong>Real-time Motion Planning:</strong> Using MoveIt2 for smooth and safe trajectory execution</li>
-                <li><strong>Multi-modal Control:</strong> Head, hand, and joystick-based teleoperation interfaces</li>
-                <li><strong>AI-Driven Adaptive Guidance:</strong> Intelligent assistance modules for enhanced user experience</li>
+                <li data-i18n="project1Feature1"><strong>ROS2-Unity Communication Bridge:</strong> Seamless integration between robotics middleware and MR environment</li>
+                <li data-i18n="project1Feature2"><strong>Real-time Motion Planning:</strong> Using MoveIt2 for smooth and safe trajectory execution</li>
+                <li data-i18n="project1Feature3"><strong>Multi-modal Control:</strong> Head, hand, and joystick-based teleoperation interfaces</li>
+                <li data-i18n="project1Feature4"><strong>AI-Driven Adaptive Guidance:</strong> Intelligent assistance modules for enhanced user experience</li>
               </ul>
 
-              <h3>AI-Enhanced Features (Planned)</h3>
+              <h3 data-i18n="project1AIEnhanced">AI-Enhanced Features (Planned)</h3>
               <ul>
-                <li><strong>Reachable Workspace Visualization:</strong> Real-time visualization of robot's reachable space in MR</li>
-                <li><strong>Collision Risk Alerts:</strong> AI-powered predictive warnings for potential collisions</li>
-                <li><strong>Object-Aware Interaction:</strong> Context-aware assistance for object manipulation tasks</li>
-                <li><strong>Adaptive Autonomy:</strong> Dynamic adjustment of assistance level based on user performance</li>
+                <li data-i18n="project1AI1"><strong>Reachable Workspace Visualization:</strong> Real-time visualization of robot's reachable space in MR</li>
+                <li data-i18n="project1AI2"><strong>Collision Risk Alerts:</strong> AI-powered predictive warnings for potential collisions</li>
+                <li data-i18n="project1AI3"><strong>Object-Aware Interaction:</strong> Context-aware assistance for object manipulation tasks</li>
+                <li data-i18n="project1AI4"><strong>Adaptive Autonomy:</strong> Dynamic adjustment of assistance level based on user performance</li>
               </ul>
 
-              <h3>Technical Stack</h3>
+              <h3 data-i18n="project1TechnicalStack">Technical Stack</h3>
               <ul>
-                <li><strong>Robotics:</strong> ROS2, MoveIt2, Hello Robot Stretch 3</li>
-                <li><strong>Mixed Reality:</strong> Unity, Meta Quest 3</li>
-                <li><strong>AI/ML:</strong> PyTorch, Computer Vision, Motion Planning Algorithms</li>
-                <li><strong>Communication:</strong> ROS2-Unity Bridge, Real-time Data Streaming</li>
+                <li data-i18n="project1Tech1"><strong>Robotics:</strong> ROS2, MoveIt2, Hello Robot Stretch 3</li>
+                <li data-i18n="project1Tech2"><strong>Mixed Reality:</strong> Unity, Meta Quest 3</li>
+                <li data-i18n="project1Tech3"><strong>AI/ML:</strong> PyTorch, Computer Vision, Motion Planning Algorithms</li>
+                <li data-i18n="project1Tech4"><strong>Communication:</strong> ROS2-Unity Bridge, Real-time Data Streaming</li>
               </ul>
 
-              <h3>Research Impact</h3>
-              <p>
+              <h3 data-i18n="project1ResearchImpact">Research Impact</h3>
+              <p data-i18n="project1Impact">
                 This research aims to enhance task efficiency and user safety in teleoperated robotic systems by combining 
                 the immersive capabilities of Mixed Reality with intelligent AI-driven guidance. The framework has applications 
                 in remote manufacturing, healthcare robotics, and disaster response scenarios.
@@ -177,14 +180,14 @@
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -204,6 +207,10 @@
   <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>

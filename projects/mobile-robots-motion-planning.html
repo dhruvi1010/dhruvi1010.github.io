@@ -39,17 +39,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.html#hero">Home</a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#resume">Resume</a></li>
-          <li><a href="../index.html#portfolio">Projects</a></li>
-          <li><a href="../index.html#achievements">Achievements</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="../index.html#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -62,13 +65,13 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Mobile-Robots-Motion-Planning: Autonomous Robot Navigation</h1>
-        <p>Path Planning and Optimization using RRT and TEB Algorithms</p>
+        <h1 data-i18n="project4Title">Mobile-Robots-Motion-Planning: Autonomous Robot Navigation</h1>
+        <p data-i18n="project4Subtitle">Path Planning and Optimization using RRT and TEB Algorithms</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#portfolio">Projects</a></li>
-            <li class="current">Motion Planning</li>
+            <li><a href="../index.html" data-i18n="breadcrumbHome">Home</a></li>
+            <li><a href="../index.html#portfolio" data-i18n="breadcrumbProjects">Projects</a></li>
+            <li class="current" data-i18n="project4Breadcrumb">Motion Planning</li>
           </ol>
         </nav>
       </div>
@@ -112,14 +115,14 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+              <h3 data-i18n="projectInfo">Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Mobile Robotics</li>
-                <li><strong>Robot</strong>: Turtlebot </li>
-                <li><strong>Algorithms</strong>: RRT, TEB</li>                
-                <li><strong>Focus</strong>: Path Planning & Obstacle Avoidance</li>
+                <li><strong data-i18n="category">Category</strong>: <span data-i18n="project4Category">Mobile Robotics</span></li>
+                <li><strong data-i18n="project4Robot">Robot</strong>: Turtlebot </li>
+                <li><strong data-i18n="project4Algorithms">Algorithms</strong>: RRT, TEB</li>                
+                <li><strong data-i18n="project3Focus">Focus</strong>: Path Planning & Obstacle Avoidance</li>
                 <!-- git Section <li><strong>Repository</strong>: <a href="#" target="_blank">GitHub Link</a></li>   -->
-                <li><strong>Repository</strong>: <a href="https://github.com/dhruvi1010/Mobile-Robots-Motion-Planning" target="_blank">GitHub Link</a></li>
+                <li><strong data-i18n="project2Repository">Repository</strong>: <a href="https://github.com/dhruvi1010/Mobile-Robots-Motion-Planning" target="_blank">GitHub Link</a></li>
               </ul>
             </div>
           </div>
@@ -129,67 +132,67 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
+              <h2 data-i18n="projectOverview">Project Overview</h2>
+              <p data-i18n="project4Overview">
                 This project focuses on autonomous robot navigation through path planning and optimization. The primary 
                 emphasis is on utilizing the Rapidly-exploring Random Tree (RRT) algorithm for global planning and the 
                 Timed Elastic Band (TEB) algorithm for local path optimization and obstacle avoidance.
               </p>
               
-              <h3>Key Algorithms</h3>
+              <h3 data-i18n="project4KeyAlgorithms">Key Algorithms</h3>
               
-              <h4>RRT (Rapidly-exploring Random Tree)</h4>
+              <h4 data-i18n="project4RRTTitle">RRT (Rapidly-exploring Random Tree)</h4>
               <ul>
-                <li><strong>Purpose:</strong> Global path planning</li>
-                <li><strong>Function:</strong> Finds a feasible path from start to goal configuration</li>
-                <li><strong>Advantages:</strong> Efficient in high-dimensional spaces, handles complex environments</li>
-                <li><strong>Application:</strong> Initial path generation for mobile robots</li>
+                <li data-i18n="project4RRTPurpose"><strong>Purpose:</strong> Global path planning</li>
+                <li data-i18n="project4RRTFunction"><strong>Function:</strong> Finds a feasible path from start to goal configuration</li>
+                <li data-i18n="project4RRTAdvantages"><strong>Advantages:</strong> Efficient in high-dimensional spaces, handles complex environments</li>
+                <li data-i18n="project4RRTApplication"><strong>Application:</strong> Initial path generation for mobile robots</li>
               </ul>
 
-              <h4>TEB (Timed Elastic Band)</h4>
+              <h4 data-i18n="project4TEBTitle">TEB (Timed Elastic Band)</h4>
               <ul>
-                <li><strong>Purpose:</strong> Local path optimization and obstacle avoidance</li>
-                <li><strong>Function:</strong> Optimizes the trajectory considering robot dynamics and obstacles</li>
-                <li><strong>Advantages:</strong> Real-time optimization, considers velocity and acceleration constraints</li>
-                <li><strong>Application:</strong> Smooth trajectory execution with dynamic obstacle avoidance</li>
+                <li data-i18n="project4TEBPurpose"><strong>Purpose:</strong> Local path optimization and obstacle avoidance</li>
+                <li data-i18n="project4TEBFunction"><strong>Function:</strong> Optimizes the trajectory considering robot dynamics and obstacles</li>
+                <li data-i18n="project4TEBAdvantages"><strong>Advantages:</strong> Real-time optimization, considers velocity and acceleration constraints</li>
+                <li data-i18n="project4TEBApplication"><strong>Application:</strong> Smooth trajectory execution with dynamic obstacle avoidance</li>
               </ul>
 
-              <h3>Project Features</h3>
+              <h3 data-i18n="project4ProjectFeatures">Project Features</h3>
               <ul>
-                <li><strong>Global Path Planning:</strong> RRT algorithm for finding initial feasible paths</li>
-                <li><strong>Local Path Optimization:</strong> TEB algorithm for smooth trajectory execution</li>
-                <li><strong>Obstacle Avoidance:</strong> Dynamic obstacle detection and avoidance</li>
-                <li><strong>Real-time Navigation:</strong> Efficient algorithms for real-time robot control</li>
-                <li><strong>Path Optimization:</strong> Continuous refinement of robot trajectory</li>
+                <li data-i18n="project4Feature1"><strong>Global Path Planning:</strong> RRT algorithm for finding initial feasible paths</li>
+                <li data-i18n="project4Feature2"><strong>Local Path Optimization:</strong> TEB algorithm for smooth trajectory execution</li>
+                <li data-i18n="project4Feature3"><strong>Obstacle Avoidance:</strong> Dynamic obstacle detection and avoidance</li>
+                <li data-i18n="project4Feature4"><strong>Real-time Navigation:</strong> Efficient algorithms for real-time robot control</li>
+                <li data-i18n="project4Feature5"><strong>Path Optimization:</strong> Continuous refinement of robot trajectory</li>
               </ul>
 
-              <h3>Technical Implementation</h3>
+              <h3 data-i18n="project3TechnicalImplementation">Technical Implementation</h3>
               <ul>
-                <li><strong>Planning Framework:</strong> ROS-based navigation stack</li>
-                <li><strong>Global Planner:</strong> RRT implementation</li>
-                <li><strong>Local Planner:</strong> TEB algorithm</li>
-                <li><strong>Sensor Integration:</strong> LIDAR, cameras for obstacle detection</li>
-                <li><strong>Robot Platform:</strong> Compatible with various mobile robot platforms</li>
+                <li data-i18n="project4Tech1"><strong>Planning Framework:</strong> ROS-based navigation stack</li>
+                <li data-i18n="project4Tech2"><strong>Global Planner:</strong> RRT implementation</li>
+                <li data-i18n="project4Tech3"><strong>Local Planner:</strong> TEB algorithm</li>
+                <li data-i18n="project4Tech4"><strong>Sensor Integration:</strong> LIDAR, cameras for obstacle detection</li>
+                <li data-i18n="project4Tech5"><strong>Robot Platform:</strong> Compatible with various mobile robot platforms</li>
               </ul>
 
-              <h3>Applications</h3>
-              <p>
+              <h3 data-i18n="project3Applications">Applications</h3>
+              <p data-i18n="project4AppsIntro">
                 This motion planning system has applications in:
               </p>
               <ul>
-                <li>Autonomous mobile robots</li>
-                <li>Warehouse automation</li>
-                <li>Service robotics</li>
-                <li>Autonomous vehicles</li>
-                <li>Search and rescue robots</li>
+                <li data-i18n="project4App1">Autonomous mobile robots</li>
+                <li data-i18n="project4App2">Warehouse automation</li>
+                <li data-i18n="project4App3">Service robotics</li>
+                <li data-i18n="project4App4">Autonomous vehicles</li>
+                <li data-i18n="project4App5">Search and rescue robots</li>
               </ul>
 
-              <h3>Key Contributions</h3>
+              <h3 data-i18n="project4Contributions">Key Contributions</h3>
               <ul>
-                <li>Integration of RRT and TEB algorithms for comprehensive path planning</li>
-                <li>Optimization of path planning for real-time performance</li>
-                <li>Robust obstacle avoidance in dynamic environments</li>
-                <li>Implementation suitable for various mobile robot platforms</li>
+                <li data-i18n="project4Contribution1">Integration of RRT and TEB algorithms for comprehensive path planning</li>
+                <li data-i18n="project4Contribution2">Optimization of path planning for real-time performance</li>
+                <li data-i18n="project4Contribution3">Robust obstacle avoidance in dynamic environments</li>
+                <li data-i18n="project4Contribution4">Implementation suitable for various mobile robot platforms</li>
               </ul>
             </div>
           </div>
@@ -204,14 +207,14 @@
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -231,6 +234,10 @@
   <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>

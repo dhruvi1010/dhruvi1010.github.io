@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Dhruvi Bootstrap Template</Template></title>
+  <title>Index - Dhruvi Portfolio</Template></title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons - Browser Tab Icons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -27,13 +29,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Laura
-  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body class="index-page">
@@ -43,24 +39,26 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <!-- <h1 class="sitename">Laura</h1>  #left corner -->
+
         <h1 class="sitename">Dhruvi</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#hero" class="active" data-i18n="navHome">Home</a></li>
+          <li><a href="#about" data-i18n="navAbout">About</a></li>
+          <li><a href="#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -73,12 +71,12 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
         <!-- Hero Section Background Image -->
-      <img src="assets/img/home.png" alt="" data-aos="fade-in"> 
-      <img src="assets/img/home.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/portfolio/home.jpeg" alt="" data-aos="fade-in"> 
+      <img src="assets/img/portfolio/home.jpeg" alt="" data-aos="fade-in">
 
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>Dhruvi Koshiya</h2>
-        <p>Robotics Researcher & Developer | AI & Mixed Reality Enthusiast</p>
+        <p data-i18n="heroSubtitle">Robotics Researcher & Developer | AI & Mixed Reality Enthusiast</p>
         <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
       </div>
 
@@ -89,11 +87,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">About me</span>
-        <h2>About Me</h2>
-        <p>Hello, I'm Dhruvi Koshiya, a Master's student in Automation & Robotics at Technical University Dortmund, Germany, 
-          working at the intersection of Artificial Intelligence, Human-Robot Interaction (HRI), and Mixed Reality (MR). 
-          Currently pursuing my Master's thesis on AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.</p>
+        <span class="description-title" data-i18n="aboutDescription">About me</span>
+        <h2 data-i18n="aboutTitle">About Me</h2>
+        <p data-i18n="aboutIntro">Hello, I'm Dhruvi Koshiya, a Master's student in Automation & Robotics at Technical University Dortmund, Germany, working at the intersection of Artificial Intelligence, Human-Robot Interaction (HRI), and Mixed Reality (MR), leveraging the power of Artificial Intelligence to make complex systems accessible and intuitive.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -103,30 +99,30 @@
             <img src="assets/img/portfolio/profile-2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>Robotics Researcher & Developer</h2>
-            <p class="fst-italic py-3">
-              Passionate about developing innovative solutions in robotics, AI, and human-robot interaction. 
-              Currently working on digital twins, teleoperation systems, and mixed reality applications for mobile manipulators.
+            <h2 data-i18n="aboutHeading">Robotics Researcher & Developer</h2>
+            <p class="fst-italic py-3" data-i18n="aboutPassion">
+              Passionate about developing innovative solutions in robotics, AI, and Human-Robot interaction. 
+              Currently working on digital twins, teleoperation systems, and mixed reality applications for Robots.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Dortmund, Germany</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>M.S. Automation & Robotics</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>dhruvikoshiyade10@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>TU Dortmund, Germany</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutLocation">Location:</strong> <span>Dortmund, Germany</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutDegree">Degree:</strong> <span>M.S. Automation & Robotics</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutEmail">Email:</strong> <span>dhruvikoshiyade10@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutUniversity">University:</strong> <span>TU Dortmund, Germany</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Master's Student</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank">linkedin.com/in/dhruvi-koshiya/</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English (C1), German (B1), Hindi, Gujarati</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Research Focus:</strong> <span>HRI, AI & ML, MR, Digital Twins</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutStatus">Status:</strong> <span data-i18n="statusStudent">Master's Student</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutLinkedIn">LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank">linkedin.com/in/dhruvi-koshiya/</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutLanguages">Languages:</strong> <span>English (C1), German (B1), Hindi, Gujarati</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong data-i18n="aboutResearch">Research Focus:</strong> <span>HRI, AI & ML, MR, Digital Twins</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
+            <p class="py-3" data-i18n="aboutSpecialize">
               I specialize in developing digital twins for mobile manipulators, working with robots like Stretch3 and Reachy. 
               My research focuses on creating intuitive teleoperation systems using Mixed Reality and AI-driven adaptive guidance. 
               I have experience in ROS2, motion planning (MoveIt2), and developing human-robot interaction systems for manipulation and navigation tasks.
@@ -143,9 +139,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">My Resume</span>
-        <h2>My Resume</h2>
-        <p>Education, Experience, and Skills</p>
+        <span class="description-title" data-i18n="resumeDescription">My Resume</span>
+        <h2 data-i18n="resumeTitle">My Resume</h2>
+        <p data-i18n="resumeSubtitle">Education, Experience, and Skills</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -153,84 +149,71 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <!--
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-              </div> Edn Resume Item -->
-            
            
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title" data-i18n="resumeEducation">Education</h3>
             <div class="resume-item">
-              <h4>Master - Automation &amp; Robotics</h4>
+              <h4 data-i18n="resumeMaster">Master - Automation &amp; Robotics</h4>
               <h5>Oct 2023 - Current</h5>
               <p><em>Technical University Dortmund, Germany</em></p>
-              <p>Pursuing Master's degree with focus on Human-Robot Interaction, Mixed Reality, and AI-driven robotics systems. 
+              <p data-i18n="resumeMasterDesc">Pursuing Master's degree with focus on Human-Robot Interaction, Mixed Reality, and AI-driven robotics systems. 
               Currently working on Master's thesis: AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.</p>
             </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Bachelor - Instrument &amp; Control Engineering</h4>
+              <h4 data-i18n="resumeBachelor">Bachelor - Instrument &amp; Control Engineering</h4>
               <h5>July 2018 - May 2022</h5>
               <p><em>Dharmsinh Desai University, India</em></p>
-              <p>GPA: 1.9 (on a 1.0 to 5.0 scale, where 1.0 is highest). Specialized in control systems, instrumentation, and automation technologies.</p>
+              <p data-i18n="resumeBachelorDesc">GPA: 1.9 (on a 1.0 to 5.0 scale, where 1.0 is highest). Specialized in control systems, instrumentation, and automation technologies.</p>
             </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Secondary and Higher Secondary School</h4>
+              <h4 data-i18n="resumeSchool">Secondary and Higher Secondary School</h4>
               <h5>June 2015 - March 2018</h5>
               <p><em>Tapovan Vidhyalaya, India</em></p>
-              <p>GPA: 1.5 (on a 1.0 to 5.0 scale, where 1.0 is highest)</p>
+              <p data-i18n="resumeSchoolDesc">GPA: 1.5 (on a 1.0 to 5.0 scale, where 1.0 is highest)</p>
             </div><!-- End Resume Item -->
 
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Work Experience</h3>
+            <h3 class="resume-title" data-i18n="resumeExperience">Work Experience</h3>
             <div class="resume-item">
-              <h4>Student Research Assistant</h4>
+              <h4 data-i18n="resumeResearch">Student Research Assistant</h4>
               <h5>June 2024 - Current</h5>
               <p><em>Ihri-TU Dortmund, Germany</em></p>
               <ul>
-                <li>Developing a digital-twin for the Stretch3 Robot—a mobile manipulator—with a focus on manipulation, perception, navigation, and object hand-over between two robots</li>
-                <li>Diagnosed Human-Robot Interaction Using Reachy Robot: For Manipulation and Teleoperation of Humanoid Robot with Mixed Reality</li>
+                <li data-i18n="resumeResearchDesc1">Developing a digital-twin for the Stretch3 Robot—a mobile manipulator—with a focus on manipulation, perception, navigation, and object hand-over between two robots</li>
+                <li data-i18n="resumeResearchDesc2">Diagnosed Human-Robot Interaction Using Reachy Robot: For Manipulation and Teleoperation of Humanoid Robot with Mixed Reality</li>
               </ul>
             </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Technical Project Manager</h4>
+              <h4 data-i18n="resumeManager">Technical Project Manager</h4>
               <h5>Aug 2022 - Oct 2023</h5>
               <p><em>Reliance Industries Limited, Jamnagar, India</em></p>
               <ul>
-                <li>Collaborated with senior management on strategic planning and led the execution of instrumentation activities based on technical drawings and specifications</li>
-                <li>Conducted inspections for quality &amp; progress in the petro-chemical refinery</li>
+                <li data-i18n="resumeManagerDesc1">Collaborated with senior management on strategic planning and led the execution of instrumentation activities based on technical drawings and specifications</li>
+                <li data-i18n="resumeManagerDesc2">Conducted inspections for quality &amp; progress in the petro-chemical refinery</li>
               </ul>
             </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Project Intern</h4>
+              <h4 data-i18n="resumeIntern">Project Intern</h4>
               <h5>Dec 2021 - March 2022</h5>
               <p><em>Nutron Systems Pvt Ltd, India</em></p>
               <ul>
-                <li>Data fetching, Monitoring and Transmission from different PLCs (Mitsubishi, Siemens, Allen Bradley) and Modbus enabled devices using standalone configurable system NoxVIEW</li>
+                <li data-i18n="resumeInternDesc1">Data fetching, Monitoring and Transmission from different PLCs (Mitsubishi, Siemens, Allen Bradley) and Modbus enabled devices using standalone configurable system NoxVIEW</li>
               </ul>
             </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Project Intern</h4>
+              <h4 data-i18n="resumeIntern">Project Intern</h4>
               <h5>May 2021 - June 2021</h5>
               <p><em>Advance Circuit &amp; Development Centre (ACDC), India</em></p>
               <ul>
-                <li>Studied and worked with various Microcontrollers, Sensors, and Simulation platforms</li>
-                <li>Completed projects on a Safety Monitoring Device &amp; Contactless Hand Sanitizer - Dispensing System</li>
+                <li data-i18n="resumeInternDesc2">Studied and worked with various Microcontrollers, Sensors, and Simulation platforms</li>
+                <li data-i18n="resumeInternDesc3">Completed projects on a Safety Monitoring Device &amp; Contactless Hand Sanitizer - Dispensing System</li>
               </ul>
             </div><!-- End Resume Item -->
 
@@ -247,9 +230,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Skills</span>
-        <h2>Skills & Abilities</h2>
-        <p>Technical expertise and competencies</p>
+        <span class="description-title" data-i18n="skillsTitle">Skills</span>
+        <h2 data-i18n="skillsHeading">Skills & Abilities</h2>
+        <p data-i18n="skillsSubtitle">Technical expertise and competencies</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -259,7 +242,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-code-slash icon"></i></div>
-              <h4>Programming</h4>
+              <h4 data-i18n="skillsProgramming">Programming</h4>
               <p>C++, C#, Python, MATLAB (PyTorch, OpenCV)</p>
             </div>
           </div><!-- End Service Item -->
@@ -267,7 +250,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-cpu icon"></i></div>
-              <h4>Simulation & Robotics Platforms</h4>
+              <h4 data-i18n="skillsSimulation">Simulation & Robotics Platforms</h4>
               <p>ROS, ROS2, Gazebo, Unity, Linux, SCADA Automation, LabVIEW</p>
             </div>
           </div><!-- End Service Item -->
@@ -275,7 +258,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-gear icon"></i></div>
-              <h4>Configuration</h4>
+              <h4 data-i18n="skillsConfiguration">Configuration</h4>
               <p>PLC Ladder Logic, Arduino IDE, ESP 32, Raspberry Pi</p>
             </div>
           </div><!-- End Service Item -->
@@ -283,7 +266,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-robot icon"></i></div>
-              <h4>Robots</h4>
+              <h4 data-i18n="skillsRobots">Robots</h4>
               <p>Stretch3, Reachy, ufactory Xarm 6, Turtlebot3</p>
             </div>
           </div><!-- End Service Item -->
@@ -300,9 +283,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Projects</span>
-        <h2>Academic Projects</h2>
-        <p>Research and development projects in robotics, AI, and automation</p>
+        <span class="description-title" data-i18n="portfolioDescription">Projects</span>
+        <h2 data-i18n="portfolioTitle">Projects</h2>
+        <p data-i18n="portfolioSubtitle">Research and development projects in robotics, AI, and automation</p>
       </div><!-- End Section Title -->
 
       <div class="container-fluid">
@@ -310,11 +293,11 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-thesis">Thesis</li>
-            <li data-filter=".filter-robotics">Robotics</li>
-            <li data-filter=".filter-ai">AI & MR</li>
-            <li data-filter=".filter-automation">Automation</li>
+            <li data-filter="*" class="filter-active" data-i18n="portfolioAll">All</li>
+            <li data-filter=".filter-thesis" data-i18n="portfolioThesis">Thesis</li>
+            <li data-filter=".filter-robotics" data-i18n="portfolioRobotics">Robotics</li>
+            <li data-filter=".filter-ai" data-i18n="portfolioAI">AI & MR</li>
+            <li data-filter=".filter-automation" data-i18n="portfolioAutomation">Automation</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -383,9 +366,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Achievements & Activities</span>
-        <h2>Achievements & Activities</h2>
-        <p>Certifications, Competitions, Conferences, Extracurricular Activities, and Publications</p>
+        <span class="description-title" data-i18n="achievementsDescription">Achievements & Activities</span>
+        <h2 data-i18n="achievementsTitle">Achievements & Activities</h2>
+        <p data-i18n="achievementsSubtitle">Certifications, Competitions, Conferences, Extracurricular Activities, and Publications</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -394,27 +377,27 @@
         <ul class="nav nav-tabs nav-justified mb-4" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="certificates-tab" data-bs-toggle="tab" data-bs-target="#certificates" type="button" role="tab" aria-controls="certificates" aria-selected="true">
-              <i class="bi bi-award"></i> Certificates
+              <i class="bi bi-award"></i> <span data-i18n="achievementsCertificates">Certificates</span>
             </button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="competitions-tab" data-bs-toggle="tab" data-bs-target="#competitions" type="button" role="tab" aria-controls="competitions" aria-selected="false">
-              <i class="bi bi-trophy"></i> Competitions
+              <i class="bi bi-trophy"></i> <span data-i18n="achievementsCompetitions">Competitions</span>
             </button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="conferences-tab" data-bs-toggle="tab" data-bs-target="#conferences" type="button" role="tab" aria-controls="conferences" aria-selected="false">
-              <i class="bi bi-calendar-event"></i> Conferences
+              <i class="bi bi-calendar-event"></i> <span data-i18n="achievementsConferences">Conferences</span>
             </button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="extracurricular-tab" data-bs-toggle="tab" data-bs-target="#extracurricular" type="button" role="tab" aria-controls="extracurricular" aria-selected="false">
-              <i class="bi bi-people"></i> Extracurricular
+              <i class="bi bi-people"></i> <span data-i18n="achievementsExtracurricular">Extracurricular</span>
             </button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="publications-tab" data-bs-toggle="tab" data-bs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false">
-              <i class="bi bi-journal-text"></i> Publications
+              <i class="bi bi-journal-text"></i> <span data-i18n="achievementsPublications">Publications</span>
             </button>
           </li>
         </ul>
@@ -431,9 +414,9 @@
                   <div class="icon-box">
                     <i class="bi bi-patch-check-fill"></i>
                   </div>
-                  <h4>Embedded System and Robotics</h4>
+                  <h4 data-i18n="certEmbedded">Embedded System and Robotics</h4>
                   <p><em>IIT Bombay</em></p>
-                  <p>Comprehensive course covering embedded systems design and robotics applications</p>
+                  <p data-i18n="certEmbeddedDesc">Comprehensive course covering embedded systems design and robotics applications</p>
                 </div>
               </div>
 
@@ -442,9 +425,9 @@
                   <div class="icon-box">
                     <i class="bi bi-patch-check-fill"></i>
                   </div>
-                  <h4>Python Language</h4>
+                  <h4 data-i18n="certPython">Python Language</h4>
                   <p><em>University of Michigan, Coursera</em></p>
-                  <p>Python programming fundamentals and advanced concepts</p>
+                  <p data-i18n="certPythonDesc">Python programming fundamentals and advanced concepts</p>
                 </div>
               </div>
 
@@ -453,9 +436,9 @@
                   <div class="icon-box">
                     <i class="bi bi-patch-check-fill"></i>
                   </div>
-                  <h4>Google Project Management</h4>
+                  <h4 data-i18n="certGoogle">Google Project Management</h4>
                   <p><em>Google, Coursera</em></p>
-                  <p>Professional certificate in project management methodologies and tools</p>
+                  <p data-i18n="certGoogleDesc">Professional certificate in project management methodologies and tools</p>
                 </div>
               </div>
 
@@ -464,9 +447,9 @@
                   <div class="icon-box">
                     <i class="bi bi-patch-check-fill"></i>
                   </div>
-                  <h4>Introduction to AI</h4>
+                  <h4 data-i18n="certAI">Introduction to AI</h4>
                   <p><em>IBM, Coursera</em></p>
-                  <p>Fundamentals of Artificial Intelligence and machine learning concepts</p>
+                  <p data-i18n="certAIDesc">Fundamentals of Artificial Intelligence and machine learning concepts</p>
                 </div>
               </div>
 
@@ -482,9 +465,9 @@
                   <div class="icon-box">
                     <i class="bi bi-trophy-fill"></i>
                   </div>
-                  <h4>e-Yantra Robotics Competition</h4>
+                  <h4 data-i18n="compEYantra">e-Yantra Robotics Competition</h4>
                   <p><em>IIT Bombay | July 2021</em></p>
-                  <p>Qualified for the second level of the competition, demonstrating expertise in robotics and automation</p>
+                  <p data-i18n="compEYantraDesc">Qualified for the second level of the competition, demonstrating expertise in robotics and automation</p>
                 </div>
               </div>
 
@@ -500,10 +483,10 @@
                   <div class="icon-box">
                     <i class="bi bi-calendar-check-fill"></i>
                   </div>
-                  <h4>Mensch und Computer Conference (MUC)</h4>
+                  <h4 data-i18n="confMUC">Mensch und Computer Conference (MUC)</h4>
                   <p><em>September 2025 | Student Volunteer</em></p>
-                  <p>Assisted in the execution of an academic conference focused on human-computer interaction</p>
-                  <span class="link-indicator"><i class="bi bi-box-arrow-up-right"></i> View Details</span>
+                  <p data-i18n="confMUCDesc">Assisted in the execution of an academic conference focused on human-computer interaction</p>
+                  <span class="link-indicator"><i class="bi bi-box-arrow-up-right"></i> <span data-i18n="viewDetails">View Details</span></span>
                 </a>
               </div>
 
@@ -512,9 +495,9 @@
                   <div class="icon-box">
                     <i class="bi bi-calendar-check-fill"></i>
                   </div>
-                  <h4>Pre Human-Computer Interaction Conference (CHI)</h4>
+                  <h4 data-i18n="confCHI">Pre Human-Computer Interaction Conference (CHI)</h4>
                   <p><em>April 2025 | Participant</em></p>
-                  <p>Participated in academic conference sessions on human-computer interaction research</p>
+                  <p data-i18n="confCHIDesc">Participated in academic conference sessions on human-computer interaction research</p>
                 </div>
               </div>
 
@@ -530,10 +513,10 @@
                   <div class="icon-box">
                     <i class="bi bi-people-fill"></i>
                   </div>
-                  <h4>ISP Buddy Programme</h4>
+                  <h4 data-i18n="extraISP">ISP Buddy Programme</h4>
                   <p><em>May - September 2025</em></p>
-                  <p>Supported international students to settle in and feel at home at TU Dortmund</p>
-                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> View Certificate</span>
+                  <p data-i18n="extraISPDesc">Supported international students to settle in and feel at home at TU Dortmund</p>
+                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> <span data-i18n="viewCertificate">View Certificate</span></span>
                 </a>
               </div>
 
@@ -542,10 +525,10 @@
                   <div class="icon-box">
                     <i class="bi bi-lightbulb-fill"></i>
                   </div>
-                  <h4>DLAB Cohort</h4>
+                  <h4 data-i18n="extraDLAB">DLAB Cohort</h4>
                   <p><em>April 2024 - Current | TU Dortmund University</em></p>
-                  <p>Participated in Start-up seminars and worked on market analysis for AutoStore & ItemPiQ at Swisslog</p>
-                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> View Certificate</span>
+                  <p data-i18n="extraDLABDesc">Participated in Start-up seminars and worked on market analysis for AutoStore & ItemPiQ at Swisslog</p>
+                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> <span data-i18n="viewCertificate">View Certificate</span></span>
                 </a>
               </div>
 
@@ -554,10 +537,10 @@
                   <div class="icon-box">
                     <i class="bi bi-heart-fill"></i>
                   </div>
-                  <h4>Anurakti Foundation Volunteer</h4>
+                  <h4 data-i18n="extraAnurakti">Anurakti Foundation Volunteer</h4>
                   <p><em>July 2018 - 2020 | Admitted by Rotary International</em></p>
-                  <p>Provided education and raised awareness about health among underprivileged children</p>
-                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> View Certificate</span>
+                  <p data-i18n="extraAnuraktiDesc">Provided education and raised awareness about health among underprivileged children</p>
+                  <span class="link-indicator"><i class="bi bi-file-earmark-pdf"></i> <span data-i18n="viewCertificate">View Certificate</span></span>
                 </a>
               </div>
 
@@ -573,10 +556,10 @@
                   <div class="icon-box">
                     <i class="bi bi-journal-text"></i>
                   </div>
-                  <h4>Contactless Hand Sanitizer</h4>
+                  <h4 data-i18n="pubSanitizer">Contactless Hand Sanitizer</h4>
                   <p><em>November 2021 | EFY - Electronics For You</em></p>
-                  <p>Published article on contactless hand sanitizer dispensing system. The article discusses the design and implementation of a touch-free sanitization solution, addressing hygiene concerns during the COVID-19 pandemic.</p>
-                  <span class="link-indicator"><i class="bi bi-box-arrow-up-right"></i> Read Article</span>
+                  <p data-i18n="pubSanitizerDesc">Published article on contactless hand sanitizer dispensing system. The article discusses the design and implementation of a touch-free sanitization solution, addressing hygiene concerns during the COVID-19 pandemic.</p>
+                  <span class="link-indicator"><i class="bi bi-box-arrow-up-right"></i> <span data-i18n="readArticle">Read Article</span></span>
                 </a>
               </div>
 
@@ -594,9 +577,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Contact</span>
-        <h2>Get In Touch</h2>
-        <p>Feel free to reach out for collaborations, research opportunities, or any inquiries</p>
+        <span class="description-title" data-i18n="contactDescription">Contact</span>
+        <h2 data-i18n="contactTitle">Get In Touch</h2>
+        <p data-i18n="contactSubtitle">Feel free to reach out for collaborations, research opportunities, or any inquiries</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -606,7 +589,7 @@
           <div class="col-lg-4">
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-geo-alt"></i>
-              <h3>Location</h3>
+              <h3 data-i18n="contactLocation">Location</h3>
               <p>Dortmund, Germany</p>
             </div>
           </div><!-- End Info Item -->
@@ -614,7 +597,7 @@
           <div class="col-lg-4">
             <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
               <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
+              <h3 data-i18n="contactEmail">Email</h3>
               <p>dhruvikoshiyade10@gmail.com</p>
               <p>dhruvi.koshiya@tu-dortmund.de</p>
             </div>
@@ -634,27 +617,27 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" data-i18n-placeholder="contactName" required="">
             </div>
 
             <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" data-i18n-placeholder="contactEmail" required="">
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" data-i18n-placeholder="contactSubject" required="">
             </div>
 
             <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" data-i18n-placeholder="contactMessage" required=""></textarea>
             </div>
 
             <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
+              <div class="loading" data-i18n="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="sent-message" data-i18n="contactSent">Your message has been sent. Thank you!</div>
 
-              <button type="submit">Send Message</button>
+              <button type="submit" data-i18n="contactSend">Send Message</button>
             </div>
 
           </div>
@@ -672,21 +655,19 @@
       
       <!-- <h3 class="sitename">Laura Thomson<br></h3>  ###botom footer name-->
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+
         </div>
       </div>
     </div>
@@ -706,6 +687,10 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

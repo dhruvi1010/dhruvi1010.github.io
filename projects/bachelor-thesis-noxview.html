@@ -39,17 +39,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.html#hero">Home</a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#resume">Resume</a></li>
-          <li><a href="../index.html#portfolio">Projects</a></li>
-          <li><a href="../index.html#achievements">Achievements</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="../index.html#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -62,13 +65,13 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Data Fetch and Transmission from Heterogeneous Make Control System using NOXVIEW</h1>
-        <p>Bachelor's Thesis - SCADA System Integration</p>
+        <h1 data-i18n="project5Title">Data Fetch and Transmission from Heterogeneous Make Control System using NOXVIEW</h1>
+        <p data-i18n="project5Subtitle">Bachelor's Thesis - SCADA System Integration</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#portfolio">Projects</a></li>
-            <li class="current">Bachelor Thesis</li>
+            <li><a href="../index.html" data-i18n="breadcrumbHome">Home</a></li>
+            <li><a href="../index.html#portfolio" data-i18n="breadcrumbProjects">Projects</a></li>
+            <li class="current" data-i18n="project5Breadcrumb">Bachelor Thesis</li>
           </ol>
         </nav>
       </div>
@@ -111,12 +114,12 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+              <h3 data-i18n="projectInfo">Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Bachelor Thesis</li>
-                <li><strong>Institution</strong>: Dharmsinh Desai University</li>
-                <li><strong>Year</strong>: 2022</li>
-                <li><strong>Technology</strong>: PLC, SCADA, LabVIEW, Modbus</li>
+                <li><strong data-i18n="category">Category</strong>: <span data-i18n="project5Category">Bachelor Thesis</span></li>
+                <li><strong data-i18n="project5Institution">Institution</strong>: Dharmsinh Desai University</li>
+                <li><strong data-i18n="project5Year">Year</strong>: 2022</li>
+                <li><strong data-i18n="project2Technology">Technology</strong>: PLC, SCADA, LabVIEW, Modbus</li>
               </ul>
             </div>
           </div>
@@ -126,84 +129,84 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
+              <h2 data-i18n="projectOverview">Project Overview</h2>
+              <p data-i18n="project5Overview">
                 Configuration and troubleshooting of NoxVIEW SCADA configurator which is connected with LabVIEW that can 
                 fetch and interface data of different PLC hardware devices and networks using software drivers such as Serial 
                 Modbus master, TCP IP Modbus master, Mitsubishi TCPIP, Siemens S7 TCPIP etc. through CSV, ODBC, NoxVIEW-IIOT, 
                 AWS gateways.
               </p>
               
-              <h3>Key Features</h3>
+              <h3 data-i18n="project1KeyFeatures">Key Features</h3>
               <ul>
-                <li><strong>Heterogeneous System Integration:</strong> Unified interface for multiple PLC and control system manufacturers</li>
-                <li><strong>Multi-Protocol Support:</strong> Support for various industrial communication protocols</li>
-                <li><strong>Data Gateway Integration:</strong> Multiple data transmission gateways (CSV, ODBC, IIOT, AWS)</li>
-                <li><strong>LabVIEW Integration:</strong> Seamless connection with LabVIEW for data processing</li>
-                <li><strong>Real-time Monitoring:</strong> Continuous data fetching and monitoring capabilities</li>
+                <li data-i18n="project5Feature1"><strong>Heterogeneous System Integration:</strong> Unified interface for multiple PLC and control system manufacturers</li>
+                <li data-i18n="project5Feature2"><strong>Multi-Protocol Support:</strong> Support for various industrial communication protocols</li>
+                <li data-i18n="project5Feature3"><strong>Data Gateway Integration:</strong> Multiple data transmission gateways (CSV, ODBC, IIOT, AWS)</li>
+                <li data-i18n="project5Feature4"><strong>LabVIEW Integration:</strong> Seamless connection with LabVIEW for data processing</li>
+                <li data-i18n="project5Feature5"><strong>Real-time Monitoring:</strong> Continuous data fetching and monitoring capabilities</li>
               </ul>
 
-              <h3>Supported Hardware & Protocols</h3>
+              <h3 data-i18n="project5SupportedHardware">Supported Hardware & Protocols</h3>
               
-              <h4>PLC Manufacturers</h4>
+              <h4 data-i18n="project5PLCManufacturers">PLC Manufacturers</h4>
               <ul>
-                <li><strong>Mitsubishi:</strong> TCPIP communication protocol</li>
-                <li><strong>Siemens:</strong> S7 TCPIP protocol</li>
-                <li><strong>Allen Bradley:</strong> Modbus communication</li>
-                <li><strong>Modbus Devices:</strong> Serial and TCP/IP Modbus master support</li>
+                <li data-i18n="project5PLC1"><strong>Mitsubishi:</strong> TCPIP communication protocol</li>
+                <li data-i18n="project5PLC2"><strong>Siemens:</strong> S7 TCPIP protocol</li>
+                <li data-i18n="project5PLC3"><strong>Allen Bradley:</strong> Modbus communication</li>
+                <li data-i18n="project5PLC4"><strong>Modbus Devices:</strong> Serial and TCP/IP Modbus master support</li>
               </ul>
 
-              <h4>Communication Protocols</h4>
+              <h4 data-i18n="project5CommunicationProtocols">Communication Protocols</h4>
               <ul>
-                <li><strong>Serial Modbus Master:</strong> RS-232/RS-485 communication</li>
-                <li><strong>TCP IP Modbus Master:</strong> Ethernet-based Modbus communication</li>
-                <li><strong>Mitsubishi TCPIP:</strong> Native Mitsubishi PLC communication</li>
-                <li><strong>Siemens S7 TCPIP:</strong> Native Siemens PLC communication</li>
+                <li data-i18n="project5Protocol1"><strong>Serial Modbus Master:</strong> RS-232/RS-485 communication</li>
+                <li data-i18n="project5Protocol2"><strong>TCP IP Modbus Master:</strong> Ethernet-based Modbus communication</li>
+                <li data-i18n="project5Protocol3"><strong>Mitsubishi TCPIP:</strong> Native Mitsubishi PLC communication</li>
+                <li data-i18n="project5Protocol4"><strong>Siemens S7 TCPIP:</strong> Native Siemens PLC communication</li>
               </ul>
 
-              <h3>Data Transmission Gateways</h3>
+              <h3 data-i18n="project5DataGateways">Data Transmission Gateways</h3>
               <ul>
-                <li><strong>CSV Gateway:</strong> Data export to CSV format for analysis</li>
-                <li><strong>ODBC Gateway:</strong> Database connectivity for data storage</li>
-                <li><strong>NoxVIEW-IIOT:</strong> Industrial Internet of Things gateway</li>
-                <li><strong>AWS Gateway:</strong> Cloud integration with Amazon Web Services</li>
+                <li data-i18n="project5Gateway1"><strong>CSV Gateway:</strong> Data export to CSV format for analysis</li>
+                <li data-i18n="project5Gateway2"><strong>ODBC Gateway:</strong> Database connectivity for data storage</li>
+                <li data-i18n="project5Gateway3"><strong>NoxVIEW-IIOT:</strong> Industrial Internet of Things gateway</li>
+                <li data-i18n="project5Gateway4"><strong>AWS Gateway:</strong> Cloud integration with Amazon Web Services</li>
               </ul>
 
-              <h3>Technical Implementation</h3>
+              <h3 data-i18n="project5TechnicalImplementation">Technical Implementation</h3>
               <ul>
-                <li><strong>SCADA System:</strong> NoxVIEW configurator</li>
-                <li><strong>Programming Environment:</strong> LabVIEW for data processing</li>
-                <li><strong>Configuration:</strong> System configuration and troubleshooting</li>
-                <li><strong>Data Interface:</strong> Real-time data fetching and transmission</li>
+                <li data-i18n="project5Tech1"><strong>SCADA System:</strong> NoxVIEW configurator</li>
+                <li data-i18n="project5Tech2"><strong>Programming Environment:</strong> LabVIEW for data processing</li>
+                <li data-i18n="project5Tech3"><strong>Configuration:</strong> System configuration and troubleshooting</li>
+                <li data-i18n="project5Tech4"><strong>Data Interface:</strong> Real-time data fetching and transmission</li>
               </ul>
 
-              <h3>Project Objectives</h3>
+              <h3 data-i18n="project5Objectives">Project Objectives</h3>
               <ul>
-                <li>Create a unified system for interfacing with multiple PLC manufacturers</li>
-                <li>Enable seamless data fetching from heterogeneous control systems</li>
-                <li>Implement multiple data transmission methods for flexibility</li>
-                <li>Provide reliable and real-time industrial data monitoring</li>
-                <li>Integrate with modern cloud and IIOT platforms</li>
+                <li data-i18n="project5Obj1">Create a unified system for interfacing with multiple PLC manufacturers</li>
+                <li data-i18n="project5Obj2">Enable seamless data fetching from heterogeneous control systems</li>
+                <li data-i18n="project5Obj3">Implement multiple data transmission methods for flexibility</li>
+                <li data-i18n="project5Obj4">Provide reliable and real-time industrial data monitoring</li>
+                <li data-i18n="project5Obj5">Integrate with modern cloud and IIOT platforms</li>
               </ul>
 
-              <h3>Applications</h3>
-              <p>
+              <h3 data-i18n="project5Applications">Applications</h3>
+              <p data-i18n="project5AppsIntro">
                 This system has applications in:
               </p>
               <ul>
-                <li>Industrial automation and monitoring</li>
-                <li>Manufacturing process control</li>
-                <li>SCADA system integration</li>
-                <li>Industrial data analytics</li>
-                <li>Cloud-based industrial monitoring</li>
+                <li data-i18n="project5App1">Industrial automation and monitoring</li>
+                <li data-i18n="project5App2">Manufacturing process control</li>
+                <li data-i18n="project5App3">SCADA system integration</li>
+                <li data-i18n="project5App4">Industrial data analytics</li>
+                <li data-i18n="project5App5">Cloud-based industrial monitoring</li>
               </ul>
 
-              <h3>Key Contributions</h3>
+              <h3 data-i18n="project5Contributions">Key Contributions</h3>
               <ul>
-                <li>Unified interface for heterogeneous control systems</li>
-                <li>Multi-protocol support for industrial communication</li>
-                <li>Flexible data transmission gateway implementation</li>
-                <li>Integration with modern cloud and IIOT platforms</li>
+                <li data-i18n="project5Contribution1">Unified interface for heterogeneous control systems</li>
+                <li data-i18n="project5Contribution2">Multi-protocol support for industrial communication</li>
+                <li data-i18n="project5Contribution3">Flexible data transmission gateway implementation</li>
+                <li data-i18n="project5Contribution4">Integration with modern cloud and IIOT platforms</li>
               </ul>
             </div>
           </div>
@@ -218,14 +221,14 @@
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -245,6 +248,10 @@
   <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>

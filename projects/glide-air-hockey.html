@@ -39,17 +39,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.html#hero">Home</a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#resume">Resume</a></li>
-          <li><a href="../index.html#portfolio">Projects</a></li>
-          <li><a href="../index.html#achievements">Achievements</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#hero" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#resume" data-i18n="navResume">Resume</a></li>
+          <li><a href="../index.html#portfolio" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#achievements" data-i18n="navAchievements">Achievements</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
+      <div class="header-social-links d-flex align-items-center">
+        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
+          EN
+        </button>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>
@@ -62,13 +65,13 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>GLIDE: Gamified Latency-Induced Dynamics in Teleoperated Air Hockey Environment</h1>
-        <p>Research Project on Network Latency Impact in Teleoperated Systems</p>
+        <h1 data-i18n="project2Title">GLIDE: Gamified Latency-Induced Dynamics in Teleoperated Air Hockey Environment</h1>
+        <p data-i18n="project2Subtitle">Research Project on Network Latency Impact in Teleoperated Systems</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#portfolio">Projects</a></li>
-            <li class="current">GLIDE</li>
+            <li><a href="../index.html" data-i18n="breadcrumbHome">Home</a></li>
+            <li><a href="../index.html#portfolio" data-i18n="breadcrumbProjects">Projects</a></li>
+            <li class="current" data-i18n="project2Breadcrumb">GLIDE</li>
           </ol>
         </nav>
       </div>
@@ -111,13 +114,13 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+              <h3 data-i18n="projectInfo">Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Research Project</li>
-                <li><strong>Robots</strong>: Two UFactory xArm 6</li>
-                <li><strong>Interface</strong>: Touch-screen Gameboard</li>
-                <li><strong>Technology</strong>: vSTING Module, Web-based Controller</li>
-                <li><strong>Repository</strong>: <a href="#" target="_blank">GitLab Link</a></li>
+                <li><strong data-i18n="category">Category</strong>: <span data-i18n="project2Category">Research Project</span></li>
+                <li><strong data-i18n="project2Robots">Robots</strong>: Two UFactory xArm 6</li>
+                <li><strong data-i18n="project2Interface">Interface</strong>: Touch-screen Gameboard</li>
+                <li><strong data-i18n="project2Technology">Technology</strong>: <span data-i18n="project2TechnologyValue">Latency analysis for Robotic Teleoperation</span></li>
+                <li><strong data-i18n="project2Repository">Repository</strong>: <a href="#" target="_blank">GitLab Link</a></li>
               </ul>
             </div>
           </div>
@@ -127,7 +130,7 @@
         <!-- Video Section -->
         <div class="row gy-4 mt-4">
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-            <h3 style="margin-bottom: 1.5rem;">Project Demonstration</h3>
+            <h3 style="margin-bottom: 1.5rem;" data-i18n="project2Demo">Project Demonstration</h3>
             <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
               
               <!-- ============================================
@@ -167,7 +170,7 @@
               
             </div>
             <p style="text-align: center; color: #666; font-size: 0.9rem; margin-top: 0.5rem;">
-              <em>GLIDE: Gamified Latency-Induced Dynamics in Teleoperated Air Hockey Environment</em>
+              <em data-i18n="project2Title">GLIDE: Gamified Latency-Induced Dynamics in Teleoperated Air Hockey Environment</em>
             </p>
           </div>
         </div>
@@ -175,51 +178,51 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
+              <h2 data-i18n="projectOverview">Project Overview</h2>
+              <p data-i18n="project2Overview">
                 GLIDE investigates the impact of network latency on teleoperated systems using an innovative air hockey setup. 
                 The project utilizes two UFactory xArm 6 robotic arms and a touch-screen gameboard to visualize latency metrics 
                 and control adjustments induced by the vSTING module.
               </p>
               
-              <h3>Key Features</h3>
+              <h3 data-i18n="project1KeyFeatures">Key Features</h3>
               <ul>
-                <li><strong>Dual Robot Setup:</strong> Two UFactory xArm 6 robots for competitive air hockey gameplay</li>
-                <li><strong>Touch-screen Interface:</strong> Interactive gameboard for user control</li>
-                <li><strong>Latency Visualization:</strong> Real-time visualization of network latency metrics</li>
-                <li><strong>Wireless Communication:</strong> Controlled degradation of wireless communication to study latency effects</li>
-                <li><strong>vSTING Module:</strong> Integration for latency measurement and control adjustment</li>
+                <li data-i18n="project2Feature1"><strong>Dual Robot Setup:</strong> Two UFactory xArm 6 robots for competitive air hockey gameplay</li>
+                <li data-i18n="project2Feature2"><strong>Touch-screen Interface:</strong> Interactive gameboard for user control</li>
+                <li data-i18n="project2Feature3"><strong>Latency Visualization:</strong> Real-time visualization of network latency metrics</li>
+                <li data-i18n="project2Feature4"><strong>Wireless Communication:</strong> Controlled degradation of wireless communication to study latency effects</li>
+                <li data-i18n="project2Feature5"><strong>vSTING Module:</strong> Integration for latency measurement and control adjustment</li>
               </ul>
 
-              <h3>Research Objectives</h3>
+              <h3 data-i18n="project2ResearchObjectives">Research Objectives</h3>
               <ul>
-                <li>Quantify the impact of network latency on teleoperation performance</li>
-                <li>Develop strategies for latency compensation in teleoperated systems</li>
-                <li>Create a gamified environment for studying human-robot interaction under latency constraints</li>
-                <li>Provide insights for applications in healthcare, autonomous vehicles, remote manufacturing, and rescue robotics</li>
+                <li data-i18n="project2Obj1">Quantify the impact of network latency on teleoperation performance</li>
+                <li data-i18n="project2Obj2">Develop strategies for latency compensation in teleoperated systems</li>
+                <li data-i18n="project2Obj3">Create a gamified environment for studying human-robot interaction under latency constraints</li>
+                <li data-i18n="project2Obj4">Provide insights for applications in healthcare, autonomous vehicles, remote manufacturing, and rescue robotics</li>
               </ul>
 
-              <h3>Technical Implementation</h3>
+              <h3 data-i18n="project2TechnicalImplementation">Technical Implementation</h3>
               <ul>
-                <li><strong>Robotic Arms:</strong> UFactory xArm 6 (x2)</li>
-                <li><strong>Control System:</strong> Web-based controller with wireless communication</li>
-                <li><strong>Latency Module:</strong> vSTING for latency measurement and visualization</li>
-                <li><strong>Interface:</strong> Touch-screen gameboard for user interaction</li>
+                <li data-i18n="project2Tech1"><strong>Robotic Arms:</strong> UFactory xArm 6 (x2)</li>
+                <li data-i18n="project2Tech2"><strong>Control System:</strong> Web-based controller with wireless communication</li>
+                <li data-i18n="project2Tech3"><strong>Latency Module:</strong> vSTING for latency measurement and visualization</li>
+                <li data-i18n="project2Tech4"><strong>Interface:</strong> Touch-screen gameboard for user interaction</li>
               </ul>
 
-              <h3>Applications</h3>
-              <p>
+              <h3 data-i18n="project2Applications">Applications</h3>
+              <p data-i18n="project2AppsIntro">
                 The insights gained from GLIDE have direct applications in:
               </p>
               <ul>
-                <li><strong>Healthcare:</strong> Teleoperated surgical robots and remote patient care</li>
-                <li><strong>Autonomous Vehicles:</strong> Remote control and monitoring systems</li>
-                <li><strong>Remote Manufacturing:</strong> Teleoperated industrial robots</li>
-                <li><strong>Rescue Robotics:</strong> Remote operation in hazardous environments</li>
+                <li data-i18n="project2App1"><strong>Healthcare:</strong> Teleoperated surgical robots and remote patient care</li>
+                <li data-i18n="project2App2"><strong>Autonomous Vehicles:</strong> Remote control and monitoring systems</li>
+                <li data-i18n="project2App3"><strong>Remote Manufacturing:</strong> Teleoperated industrial robots</li>
+                <li data-i18n="project2App4"><strong>Rescue Robotics:</strong> Remote operation in hazardous environments</li>
               </ul>
 
-              <h3>Key Insights</h3>
-              <p>
+              <h3 data-i18n="project2KeyInsights">Key Insights</h3>
+              <p data-i18n="project2Insights">
                 GLIDE provides critical insights into latency management for teleoperated systems, helping researchers and 
                 engineers understand how network delays affect user performance and develop effective compensation strategies.
               </p>
@@ -236,14 +239,14 @@
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
       <h3 class="sitename">Dhruvi Koshiya<br></h3>
-      <p>Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
+      <p data-i18n="footerTagline">Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footerCopyright">Copyright</span> <strong class="px-1 sitename">Dhruvi</strong> <span data-i18n="footerRights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -263,6 +266,10 @@
   <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Translation Files -->
+  <script src="../assets/js/translations.js"></script>
+  <script src="../assets/js/language-switcher.js"></script>
 
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>
