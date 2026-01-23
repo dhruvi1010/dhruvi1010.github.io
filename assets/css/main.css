@@ -647,7 +647,7 @@ h6 {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -658,7 +658,7 @@ h6 {
   visibility: visible;
   opacity: 1;
   right: 15px;
-  bottom: 70px;
+  bottom: 15px;
   z-index: 99998;
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -695,7 +695,7 @@ h6 {
 
 @media (max-width: 768px) {
   .calendly-button {
-    bottom: 70px;
+    bottom: 15px;
     padding: 10px 16px;
     font-size: 12px;
   }
