@@ -45,12 +45,13 @@ const translations = {
     resumeResearchDesc1: "Developing a digital-twin for the Stretch3 Robot—a mobile manipulator—with a focus on manipulation, perception, navigation, and object hand-over between two robots",
     resumeResearchDesc2: "Diagnosed Human-Robot Interaction Using Reachy Robot: For Manipulation and Teleoperation of Humanoid Robot with Mixed Reality",
     resumeManager: "Technical Project Manager",
-    resumeManagerDesc1: "Collaborated with senior management on strategic planning and led the execution of instrumentation activities based on technical drawings and specifications",
-    resumeManagerDesc2: "Conducted inspections for quality & progress in the petro-chemical refinery",
+    resumeManagerDesc1: "Collaborated with senior management on strategic planning and led the project execution for instrumentation activities based on technical drawings and specifications",
+    resumeManagerDesc2: "Conducted inspections for quality & progress in the world's largest refinery complex",
     resumeIntern: "Project Intern",
-    resumeInternDesc1: "Data fetching, Monitoring and Transmission from different PLCs (Mitsubishi, Siemens, Allen Bradley) and Modbus enabled devices using standalone configurable system NoxVIEW",
+    resumeInternDesc1: "Configured and troubleshot a standalone NoxVIEW system to fetch, monitor, and transmit data from PLCs (Mitsubishi, Siemens, Allen-Bradley) and Modbus-enabled devices using Serial Modbus Master, TCP/IP Modbus Master, Mitsubishi TCP/IP, and Siemens S7 TCP/IP drivers, with data integration via CSV, ODBC, NoxVIEW-IIoT, and AWS gateways.",
     resumeInternDesc2: "Studied and worked with various Microcontrollers, Sensors, and Simulation platforms",
     resumeInternDesc3: "Completed projects on a Safety Monitoring Device & Contactless Hand Sanitizer - Dispensing System",
+    resumeInternDesc4: "Integrated NoxVIEW with LabVIEW to ensure stable communication, reliable data acquisition, and seamless interfacing across multiple hardware devices and industrial networks.",
     
     // Skills Section
     skillsTitle: "Skills",
@@ -378,12 +379,13 @@ const translations = {
     resumeResearchDesc1: "Entwicklung eines digitalen Zwillings für den Stretch3-Roboter – einen mobilen Manipulator – mit Fokus auf Manipulation, Wahrnehmung, Navigation und Objektübergabe zwischen zwei Robotern",
     resumeResearchDesc2: "Diagnose der Mensch-Roboter-Interaktion mit dem Reachy-Roboter: Für Manipulation und Teleoperation humanoiden Roboters mit Mixed Reality",
     resumeManager: "Technischer Projektmanager",
-    resumeManagerDesc1: "Zusammenarbeit mit dem Senior-Management bei der strategischen Planung und Leitung der Ausführung von Instrumentierungsaktivitäten basierend auf technischen Zeichnungen und Spezifikationen",
-    resumeManagerDesc2: "Durchführung von Inspektionen für Qualität & Fortschritt in der petrochemischen Raffinerie",
+    resumeManagerDesc1: "Zusammenarbeit mit dem Senior-Management bei der strategischen Planung und Leitung der Projektausführung für Instrumentierungsaktivitäten basierend auf technischen Zeichnungen und Spezifikationen",
+    resumeManagerDesc2: "Durchführung von Inspektionen für Qualität & Fortschritt im weltweit größten Raffineriekomplex",
     resumeIntern: "Projektpraktikantin",
-    resumeInternDesc1: "Datenerfassung, Überwachung und Übertragung von verschiedenen SPS (Mitsubishi, Siemens, Allen Bradley) und Modbus-fähigen Geräten mit dem eigenständigen konfigurierbaren System NoxVIEW",
+    resumeInternDesc1: "Konfiguration und Fehlerbehebung eines eigenständigen NoxVIEW-Systems zur Datenerfassung, Überwachung und Übertragung von SPS (Mitsubishi, Siemens, Allen-Bradley) und Modbus-fähigen Geräten mit Serial Modbus Master, TCP/IP Modbus Master, Mitsubishi TCP/IP und Siemens S7 TCP/IP-Treibern, mit Datenintegration über CSV, ODBC, NoxVIEW-IIoT und AWS-Gateways.",
     resumeInternDesc2: "Studium und Arbeit mit verschiedenen Mikrocontrollern, Sensoren und Simulationsplattformen",
     resumeInternDesc3: "Abgeschlossene Projekte zu einem Sicherheitsüberwachungsgerät & kontaktlosem Handdesinfektionsmittelspendersystem",
+    resumeInternDesc4: "Integration von NoxVIEW mit LabVIEW zur Gewährleistung stabiler Kommunikation, zuverlässiger Datenerfassung und nahtloser Schnittstelle zwischen mehreren Hardwaregeräten und industriellen Netzwerken.",
     
     // Skills Section
     skillsTitle: "Fähigkeiten",
