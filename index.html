@@ -273,6 +273,14 @@
             </div>
           </div><!-- End Service Item -->
 
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-briefcase icon"></i></div>
+              <h4 data-i18n="skillsManagement">Management</h4>
+              <p data-i18n="skillsManagementValue">SAP, SAP ERP Management, MS Office, Git, Docker, Notion</p>
+            </div>
+          </div><!-- End Service Item -->
+
         </div>
 
       </div>
@@ -678,6 +686,12 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Calendly Floating Button -->
+  <button id="calendly-button" class="calendly-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dhruvikoshiyade10/30min'}); return false;">
+    <i class="bi bi-calendar-check"></i>
+    <span data-i18n="calendlyButtonText">Let's Connect</span>
+  </button>
+
   <!-- Preloader -->
   <div id="preloader"></div>
 
@@ -693,6 +707,10 @@
   <!-- Translation Files -->
   <script src="assets/js/translations.js"></script>
   <script src="assets/js/language-switcher.js"></script>
+
+  <!-- Calendly Embed Script -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

@@ -61,6 +61,8 @@ const translations = {
     skillsSimulation: "Simulation & Robotics Platforms",
     skillsConfiguration: "Configuration",
     skillsRobots: "Robots",
+    skillsManagement: "Management",
+    skillsManagementValue: "SAP, SAP ERP Management, MS Office, Git, Docker, Notion",
     
     // Portfolio Section
     portfolioTitle: "Academic Projects",
@@ -125,6 +127,7 @@ const translations = {
     footerTagline: "Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality",
     footerCopyright: "Copyright",
     footerRights: "All Rights Reserved",
+    calendlyButtonText: "Let's Connect",
     
     // Project Pages Common
     projectInfo: "Project Information",
@@ -395,6 +398,8 @@ const translations = {
     skillsSimulation: "Simulations- & Robotikplattformen",
     skillsConfiguration: "Konfiguration",
     skillsRobots: "Roboter",
+    skillsManagement: "Management",
+    skillsManagementValue: "SAP, SAP ERP Management, MS Office, Git, Docker, Notion",
     
     // Portfolio Section
     portfolioTitle: "Akademische Projekte",
@@ -459,6 +464,7 @@ const translations = {
     footerTagline: "Robotik-Forscherin & Entwicklerin | Leidenschaftlich für KI, Mensch-Roboter-Interaktion und Mixed Reality",
     footerCopyright: "Urheberrecht",
     footerRights: "Alle Rechte vorbehalten",
+    calendlyButtonText: "Lass uns verbinden",
     
     // Project Pages Common
     projectInfo: "Projektinformationen",

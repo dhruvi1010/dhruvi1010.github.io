@@ -651,6 +651,65 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Calendly Floating Button
+--------------------------------------------------------------*/
+.calendly-button {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  right: 15px;
+  bottom: 70px;
+  z-index: 99998;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: var(--nav-font);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.calendly-button:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.calendly-button:active {
+  transform: translateY(0);
+}
+
+.calendly-button i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+@media (max-width: 768px) {
+  .calendly-button {
+    bottom: 70px;
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+  
+  .calendly-button span {
+    display: none;
+  }
+  
+  .calendly-button i {
+    font-size: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
