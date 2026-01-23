@@ -14,6 +14,9 @@
     if (typeof translations !== 'undefined') {
       applyTranslations(currentLang);
       updateLanguageSwitcher(currentLang);
+    } else {
+      // Even if translations aren't loaded yet, update the button states
+      updateLanguageSwitcher(currentLang);
     }
   });
 
@@ -57,12 +60,22 @@
     currentLang = lang;
   }
 
-  // Update language switcher button
+  // Update language switcher buttons (highlight active one)
   function updateLanguageSwitcher(lang) {
-    const switcher = document.getElementById('language-switcher');
-    if (switcher) {
-      switcher.textContent = lang.toUpperCase();
-      switcher.setAttribute('data-current-lang', lang);
+    const enBtn = document.getElementById('lang-en');
+    const deBtn = document.getElementById('lang-de');
+    
+    if (enBtn && deBtn) {
+      // Remove active class from both
+      enBtn.classList.remove('active');
+      deBtn.classList.remove('active');
+      
+      // Add active class to current language button
+      if (lang === 'en' && enBtn) {
+        enBtn.classList.add('active');
+      } else if (lang === 'de' && deBtn) {
+        deBtn.classList.add('active');
+      }
     }
   }
 
@@ -75,12 +88,6 @@
       // Smooth scroll to top to show changes
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  };
-
-  // Toggle between EN and DE
-  window.toggleLanguage = function() {
-    const newLang = currentLang === 'en' ? 'de' : 'en';
-    switchLanguage(newLang);
   };
 
 })();

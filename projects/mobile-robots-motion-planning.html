@@ -8,9 +8,11 @@
   <meta name="description" content="Autonomous Robot Navigation using RRT and TEB Algorithms">
   <meta name="keywords" content="Mobile Robotics, Path Planning, RRT, TEB, Autonomous Navigation, Obstacle Avoidance">
 
-  <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons - Browser Tab Icons -->
+  <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+  <link rel="shortcut icon" href="../favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="../favicon/apple-touch-icon.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -50,9 +52,10 @@
       </nav>
 
       <div class="header-social-links d-flex align-items-center">
-        <button id="language-switcher" onclick="toggleLanguage()" class="language-switcher-btn" title="Switch Language">
-          EN
-        </button>
+        <div class="language-switcher-group">
+          <button id="lang-en" onclick="switchLanguage('en')" class="language-switcher-btn" data-lang="en" title="English">EN</button>
+          <button id="lang-de" onclick="switchLanguage('de')" class="language-switcher-btn" data-lang="de" title="Deutsch">DE</button>
+        </div>
         <a href="https://www.linkedin.com/in/dhruvi-koshiya/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/dhruvi1010" target="_blank" class="github"><i class="bi bi-github"></i></a>
       </div>

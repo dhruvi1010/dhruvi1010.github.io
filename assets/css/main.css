@@ -189,13 +189,18 @@ h6 {
   line-height: 0px;
 }
 
-/* Language Switcher Button */
-.language-switcher-btn {
+/* Language Switcher Group - Two buttons attached together */
+.language-switcher-group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.language-switcher-group .language-switcher-btn {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--nav-color);
   padding: 6px 12px;
-  border-radius: 4px;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -207,17 +212,39 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin: 0;
+  border-radius: 0;
 }
 
-.language-switcher-btn:hover {
+/* First button - rounded left corners */
+.language-switcher-group .language-switcher-btn:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: none;
+}
+
+/* Second button - rounded right corners */
+.language-switcher-group .language-switcher-btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Active state */
+.language-switcher-group .language-switcher-btn.active {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: var(--nav-hover-color);
+  color: var(--nav-hover-color);
+}
+
+.language-switcher-group .language-switcher-btn:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: var(--nav-hover-color);
   color: var(--nav-hover-color);
   transform: translateY(-1px);
 }
 
-.language-switcher-btn:active {
+.language-switcher-group .language-switcher-btn:active {
   transform: translateY(0);
 }
 
