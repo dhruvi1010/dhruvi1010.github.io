@@ -171,6 +171,9 @@ h6 {
 
 .header .header-social-links {
   padding-right: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .header .header-social-links a {
@@ -192,8 +195,11 @@ h6 {
 /* Language Switcher Group - Two buttons attached together */
 .language-switcher-group {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   margin-right: 10px;
+  white-space: nowrap;
 }
 
 .language-switcher-group .language-switcher-btn {
@@ -209,6 +215,8 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   min-width: 40px;
+  width: auto;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
