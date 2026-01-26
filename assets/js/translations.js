@@ -127,7 +127,7 @@ const translations = {
     footerTagline: "Robotics Researcher & Developer | Passionate about AI, Human-Robot Interaction, and Mixed Reality",
     footerCopyright: "Copyright",
     footerRights: "All Rights Reserved",
-    calendlyButtonText: "Let's Connect",
+    calendlyButtonText: "Schedule a Meeting!",
     
     // Project Pages Common
     projectInfo: "Project Information",
@@ -548,7 +548,7 @@ const translations = {
     footerTagline: "Robotik-Forscherin & Entwicklerin | Leidenschaftlich für KI, Mensch-Roboter-Interaktion und Mixed Reality",
     footerCopyright: "Urheberrecht",
     footerRights: "Alle Rechte vorbehalten",
-    calendlyButtonText: "Lass uns verbinden",
+    calendlyButtonText: "Termin vereinbaren!",
     
     // Project Pages Common
     projectInfo: "Projektinformationen",
