@@ -1534,8 +1534,8 @@ section,
 
 .portfolio-details .portfolio-details-slider .swiper-button-next,
 .portfolio-details .portfolio-details-slider .swiper-button-prev {
-  color: var(--default-color);
-  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--nav-color);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 36px;
   height: 36px;
   margin-top: 0;
@@ -1544,7 +1544,7 @@ section,
   transition: all 0.3s ease;
   opacity: 0.8;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-button-next:after,
@@ -1556,9 +1556,9 @@ section,
 .portfolio-details .portfolio-details-slider .swiper-button-next:hover,
 .portfolio-details .portfolio-details-slider .swiper-button-prev:hover {
   opacity: 1;
-  color: var(--accent-color);
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: var(--nav-hover-color);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-button-prev {
