@@ -15,7 +15,7 @@ const translations = {
     // About Section
     aboutTitle: "About Me",
     aboutDescription: "About me",
-    aboutIntro: "Hello, I'm Dhruvi Koshiya, a Master's student in Automation & Robotics at Technical University Dortmund, Germany, working at the intersection of Artificial Intelligence, Human-Robot Interaction (HRI), and Mixed Reality (MR). Currently pursuing my Master's thesis on AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.",
+    aboutIntro: "Hello, I'm Dhruvi Koshiya, a Master's student in Automation & Robotics at Technical University Dortmund, Germany, working at the intersection of Artificial Intelligence, Human-Robot Interaction (HRI), and Mixed Reality (MR). Currently working on AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.",
     aboutHeading: "Robotics Researcher & Developer",
     aboutPassion: "Passionate about developing innovative solutions in robotics, AI, and human-robot interaction. Currently working on digital twins, teleoperation systems, and mixed reality applications for mobile manipulators.",
     aboutLocation: "Location",
@@ -36,7 +36,7 @@ const translations = {
     resumeEducation: "Education",
     resumeExperience: "Work Experience",
     resumeMaster: "Master - Automation & Robotics",
-    resumeMasterDesc: "Pursuing Master's degree with focus on Human-Robot Interaction, Mixed Reality, and AI-driven robotics systems. Currently working on Master's thesis: AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.",
+    resumeMasterDesc: "Pursuing Master's degree with focus on Human-Robot Interaction, Mixed Reality, and AI-driven robotics systems. Currently working on: AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators.",
     resumeBachelor: "Bachelor - Instrument & Control Engineering",
     resumeBachelorDesc: "GPA: 1.9 (on a 1.0 to 5.0 scale, where 1.0 is highest). Specialized in control systems, instrumentation, and automation technologies.",
     resumeSchool: "Secondary and Higher Secondary School",
@@ -139,18 +139,18 @@ const translations = {
     current: "Current",
     inProgress: "In Progress",
     
-    // Master Thesis MR Teleoperation
+    // AI-Enhanced MR Teleoperation (Robotics & AI & MR Project)
     project1Title: "AI-Enhanced Adaptive Guidance in Mixed Reality for Intuitive Teleoperation of Mobile Manipulators",
-    project1Subtitle: "Master's Thesis - Current Research Project",
-    project1Breadcrumb: "Master Thesis",
-    project1Category: "Research Thesis",
+    project1Subtitle: "Research Project · Robotics & AI & MR",
+    project1Breadcrumb: "AI-Enhanced MR Teleoperation",
+    project1Category: "Robotics, AI & MR",
     project1Institution: "Institution",
     project1RobotPlatform: "Robot Platform",
     project1Technologies: "Technologies",
     project1KeyFeatures: "Key Features",
     project1AIEnhanced: "AI-Enhanced Features (Planned)",
     project1TechnicalStack: "Technical Stack",
-    project1ResearchImpact: "Research Impact",
+    project1ResearchImpact: "Project Impact",
     project1Overview: "Developing an AI-assisted Mixed Reality (MR) teleoperation framework for the Hello Robot Stretch 3 that combines immersive interaction with adaptive autonomy. The system integrates a ROS2-Unity communication bridge, real-time motion planning (MoveIt2), and MR control via the Meta Quest 3 for intuitive head, hand, and joystick-based operation.",
     project1Feature1: "ROS2-Unity Communication Bridge: Seamless integration between robotics middleware and MR environment",
     project1Feature2: "Real-time Motion Planning: Using MoveIt2 for smooth and safe trajectory execution",
@@ -164,7 +164,7 @@ const translations = {
     project1Tech2: "Mixed Reality: Unity, Meta Quest 3",
     project1Tech3: "AI/ML: PyTorch, Computer Vision, Motion Planning Algorithms",
     project1Tech4: "Communication: ROS2-Unity Bridge, Real-time Data Streaming",
-    project1Impact: "This research aims to enhance task efficiency and user safety in teleoperated robotic systems by combining the immersive capabilities of Mixed Reality with intelligent AI-driven guidance. The framework has applications in remote manufacturing, healthcare robotics, and disaster response scenarios.",
+    project1Impact: "This project aims to enhance task efficiency and user safety in teleoperated robotic systems by combining the immersive capabilities of Mixed Reality with intelligent AI-driven guidance. The framework has applications in remote manufacturing, healthcare robotics, and disaster response scenarios.",
     
     // GLIDE Project
     project2Title: "GLIDE: Gamified Latency-Induced Dynamics in Teleoperated Air Hockey Environment",
@@ -436,7 +436,7 @@ const translations = {
     // About Section
     aboutTitle: "Über mich",
     aboutDescription: "Über mich",
-    aboutIntro: "Hallo, ich heiße Dhruvi Koshiya, Masterstudentin in Automatisierung & Robotik an der Technischen Universität Dortmund, Deutschland, und arbeite an der Schnittstelle von Künstlicher Intelligenz, Mensch-Roboter-Interaktion (HRI) und Mixed Reality (MR). Derzeit verfasse ich meine Masterarbeit über KI-gestützte adaptive Führung in Mixed Reality für intuitive Teleoperation mobiler Manipulatoren.",
+    aboutIntro: "Hallo, ich heiße Dhruvi Koshiya, Masterstudentin in Automatisierung & Robotik an der Technischen Universität Dortmund, Deutschland, und arbeite an der Schnittstelle von Künstlicher Intelligenz, Mensch-Roboter-Interaktion (HRI) und Mixed Reality (MR). Derzeit arbeite ich an KI-gestützter adaptiver Führung in Mixed Reality für intuitive Teleoperation mobiler Manipulatoren.",
     aboutHeading: "Robotik-Forscherin & Entwicklerin",
     aboutPassion: "Leidenschaftlich an der Entwicklung innovativer Lösungen in Robotik, KI und Mensch-Roboter-Interaktion interessiert. Derzeit arbeite ich an digitalen Zwillingen, Teleoperationssystemen und Mixed-Reality-Anwendungen für mobile Manipulatoren.",
     aboutLocation: "Standort",
@@ -457,7 +457,7 @@ const translations = {
     resumeEducation: "Bildung",
     resumeExperience: "Berufserfahrung",
     resumeMaster: "Master - Automatisierung & Robotik",
-    resumeMasterDesc: "Masterstudium mit Schwerpunkt auf Mensch-Roboter-Interaktion, Mixed Reality und KI-gestützten Robotiksystemen. Derzeit arbeite ich an meiner Masterarbeit: KI-gestützte adaptive Führung in Mixed Reality für intuitive Teleoperation mobiler Manipulatoren.",
+    resumeMasterDesc: "Masterstudium mit Schwerpunkt auf Mensch-Roboter-Interaktion, Mixed Reality und KI-gestützten Robotiksystemen. Derzeit arbeite ich an: KI-gestützte adaptive Führung in Mixed Reality für intuitive Teleoperation mobiler Manipulatoren.",
     resumeBachelor: "Bachelor - Instrumentierungs- & Regelungstechnik",
     resumeBachelorDesc: "GPA: 1,9 (auf einer Skala von 1,0 bis 5,0, wobei 1,0 die beste Note ist). Spezialisiert auf Regelungssysteme, Instrumentierung und Automatisierungstechnologien.",
     resumeSchool: "Sekundar- und höhere Sekundarschule",
@@ -560,18 +560,18 @@ const translations = {
     current: "Aktuell",
     inProgress: "In Bearbeitung",
     
-    // Master Thesis MR Teleoperation
+    // AI-Enhanced MR Teleoperation (Robotics & AI & MR Project)
     project1Title: "KI-gestützte adaptive Führung in Mixed Reality für intuitive Teleoperation mobiler Manipulatoren",
-    project1Subtitle: "Masterarbeit - Laufendes Forschungsprojekt",
-    project1Breadcrumb: "Masterarbeit",
-    project1Category: "Forschungsarbeit",
+    project1Subtitle: "Forschungsprojekt · Robotik & KI & MR",
+    project1Breadcrumb: "KI-gestützte MR-Teleoperation",
+    project1Category: "Robotik, KI & MR",
     project1Institution: "Institution",
     project1RobotPlatform: "Roboterplattform",
     project1Technologies: "Technologien",
     project1KeyFeatures: "Hauptmerkmale",
     project1AIEnhanced: "KI-gestützte Funktionen (Geplant)",
     project1TechnicalStack: "Technologie-Stack",
-    project1ResearchImpact: "Forschungsauswirkungen",
+    project1ResearchImpact: "Projektauswirkungen",
     project1Overview: "Entwicklung eines KI-gestützten Mixed-Reality (MR) Teleoperations-Frameworks für den Hello Robot Stretch 3, das immersive Interaktion mit adaptiver Autonomie kombiniert. Das System integriert eine ROS2-Unity-Kommunikationsbrücke, Echtzeit-Bewegungsplanung (MoveIt2) und MR-Steuerung über das Meta Quest 3 für intuitive kopf-, hand- und joystick-basierte Bedienung.",
     project1Feature1: "ROS2-Unity-Kommunikationsbrücke: Nahtlose Integration zwischen Robotik-Middleware und MR-Umgebung",
     project1Feature2: "Echtzeit-Bewegungsplanung: Verwendung von MoveIt2 für sanfte und sichere Trajektorienausführung",
@@ -585,7 +585,7 @@ const translations = {
     project1Tech2: "Mixed Reality: Unity, Meta Quest 3",
     project1Tech3: "KI/ML: PyTorch, Computer Vision, Bewegungsplanungsalgorithmen",
     project1Tech4: "Kommunikation: ROS2-Unity-Brücke, Echtzeit-Datenstreaming",
-    project1Impact: "Diese Forschung zielt darauf ab, Aufgabeneffizienz und Benutzersicherheit in teleoperierten Robotersystemen zu verbessern, indem die immersiven Fähigkeiten von Mixed Reality mit intelligenter KI-gestützter Führung kombiniert werden. Das Framework hat Anwendungen in der Fernfertigung, Gesundheitsrobotik und Katastrophenhilfeszenarien.",
+    project1Impact: "Dieses Projekt zielt darauf ab, Aufgabeneffizienz und Benutzersicherheit in teleoperierten Robotersystemen zu verbessern, indem die immersiven Fähigkeiten von Mixed Reality mit intelligenter KI-gestützter Führung kombiniert werden. Das Framework hat Anwendungen in der Fernfertigung, Gesundheitsrobotik und Katastrophenhilfeszenarien.",
     
     // GLIDE Project
     project2Title: "GLIDE: Gamifizierte Latenz-induzierte Dynamik in teleoperierter Air-Hockey-Umgebung",
