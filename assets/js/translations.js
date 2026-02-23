@@ -206,6 +206,23 @@ const translations = {
     project2App4: "Rescue Robotics: Remote operation in hazardous environments",
     project2Insights: "GLIDE provides critical insights into latency management for teleoperated systems, helping researchers and engineers understand how network delays affect user performance and develop effective compensation strategies.",
     
+    // Reachy Robot Teleoperation
+    projectReachyTitle: "Reachy Robot Diagnosed for Teleoperation",
+    projectReachySubtitle: "Human-Robot Interaction · Manipulation & Teleoperation with Mixed Reality",
+    projectReachyBreadcrumb: "Reachy Robot Teleoperation",
+    projectReachyCategory: "Robotics, AI & MR",
+    projectReachyInstitution: "Institution",
+    projectReachyOverview: "This project focuses on diagnosing and developing Human-Robot Interaction (HRI) for the Reachy humanoid robot, with an emphasis on manipulation and teleoperation using Mixed Reality (MR). Reachy is an expressive, open-source humanoid platform ideal for HRI research. The work involves characterizing the robot for teleoperation scenarios and designing intuitive MR-based interfaces for remote control and manipulation tasks.",
+    projectReachyFeature1: "HRI Diagnosis: Systematic evaluation of Reachy for teleoperation and manipulation use cases",
+    projectReachyFeature2: "Manipulation: Design and testing of manipulation workflows with the humanoid platform",
+    projectReachyFeature3: "Teleoperation: Remote control of Reachy with low latency and intuitive feedback",
+    projectReachyFeature4: "Mixed Reality Interface: MR-based control and visualization for immersive teleoperation",
+    projectReachyTech1: "Robot: Reachy humanoid (Pollen Robotics)",
+    projectReachyTech2: "Middleware: ROS2",
+    projectReachyTech3: "Interface: Mixed Reality (MR) for control and visualization",
+    projectReachyTech4: "Software: Python, robot control and perception pipelines",
+    projectReachyImpact: "The project contributes to HRI and teleoperation research by characterizing Reachy for remote manipulation and by combining it with Mixed Reality for more intuitive control. Outcomes support applications in assistive robotics, remote assistance, and human-robot collaboration.",
+    
     // ROS Robotic Arm
     project3Title: "Motion Planning & Control of UR10 Robotic Arm Using ROS-MATLAB Integration and Gazebo Simulation",
     project3Subtitle: "Robust Control System for UR10 Robotic Arm",
@@ -626,7 +643,24 @@ const translations = {
     project2App3: "Fernfertigung: Teleoperierte Industrieroboter",
     project2App4: "Rettungsrobotik: Fernbetrieb in gefährlichen Umgebungen",
     project2Insights: "GLIDE liefert kritische Erkenntnisse zum Latenzmanagement für teleoperierte Systeme und hilft Forschern und Ingenieuren zu verstehen, wie Netzwerkverzögerungen die Benutzerleistung beeinflussen und effektive Kompensationsstrategien zu entwickeln.",
-    
+
+    // Reachy Robot Teleoperation
+    projectReachyTitle: "Reachy-Roboter diagnostiziert für Teleoperation",
+    projectReachySubtitle: "Mensch-Roboter-Interaktion · Manipulation & Teleoperation mit Mixed Reality",
+    projectReachyBreadcrumb: "Reachy Robot Teleoperation",
+    projectReachyCategory: "Robotik, KI & MR",
+    projectReachyInstitution: "Institution",
+    projectReachyOverview: "Dieses Projekt konzentriert sich auf die Diagnose und Entwicklung von Mensch-Roboter-Interaktion (HRI) für den humanoiden Reachy-Roboter mit Schwerpunkt auf Manipulation und Teleoperation mittels Mixed Reality (MR). Reachy ist eine ausdrucksstarke, Open-Source-Humanoidplattform für die HRI-Forschung. Die Arbeit umfasst die Charakterisierung des Roboters für Teleoperationsszenarien und die Gestaltung intuitiver MR-basierter Schnittstellen für Fernsteuerung und Manipulationsaufgaben.",
+    projectReachyFeature1: "HRI-Diagnose: Systematische Bewertung von Reachy für Teleoperation und Manipulation",
+    projectReachyFeature2: "Manipulation: Design und Test von Manipulationsabläufen mit der Humanoidplattform",
+    projectReachyFeature3: "Teleoperation: Fernsteuerung von Reachy mit geringer Latenz und intuitivem Feedback",
+    projectReachyFeature4: "Mixed-Reality-Schnittstelle: MR-basierte Steuerung und Visualisierung für immersive Teleoperation",
+    projectReachyTech1: "Roboter: Reachy Humanoid (Pollen Robotics)",
+    projectReachyTech2: "Middleware: ROS2",
+    projectReachyTech3: "Schnittstelle: Mixed Reality (MR) für Steuerung und Visualisierung",
+    projectReachyTech4: "Software: Python, Robotiksteuerung und Wahrnehmungspipelines",
+    projectReachyImpact: "Das Projekt trägt zur HRI- und Teleoperationsforschung bei, indem Reachy für Fernmanipulation charakterisiert und mit Mixed Reality für intuitivere Steuerung kombiniert wird. Die Ergebnisse unterstützen Anwendungen in Assistenzrobotik, Fernassistenz und Mensch-Roboter-Kollaboration.",
+
     // ROS Robotic Arm
     project3Title: "Bewegungsplanung & Steuerung des UR10-Roboterarms mit ROS-MATLAB-Integration und Gazebo-Simulation",
     project3Subtitle: "Robustes Steuerungssystem für UR10-Roboterarm",
